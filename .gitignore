@@ -1,0 +1,26 @@
+# Configuracao local; o exemplo deve entrar no repositorio.
+.env
+.env.*
+!.env.example
+
+# Arquivos temporarios do Python.
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# Backups e dados locais do banco; manter db/init.sql.
+*.dump
+*.backup
+*.sql.gz
+*.sql.zip
+/backup.sql
+/dump.sql
+/av02-backup.sql
+/backups/
+/dumps/
+/pgdata/
+/postgres-data/
+/db/data/
